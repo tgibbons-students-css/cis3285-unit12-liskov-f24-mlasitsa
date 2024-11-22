@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SubtypeCovariance
 {
@@ -14,7 +10,6 @@ namespace SubtypeCovariance
         }
 
         public string EmailAddress { get; set; }
-
         public DateTime DateOfBirth { get; set; }
     }
 }
